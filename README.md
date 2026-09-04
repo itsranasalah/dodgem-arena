@@ -4,7 +4,7 @@ A top-down bumper-car arena built with **p5.js** for rendering and **Matter.js**
 
 Built as Coursework 1 for **CM2030 Graphics Programming** (University of London, Goldsmiths).
 
-![Dodgem Arena — Mode 2](docs/screenshot.png)
+<img width="1752" height="876" alt="image" src="https://github.com/user-attachments/assets/ee683b4a-75d4-4e34-a48e-14a60e18ce99" />
 
 ---
 
