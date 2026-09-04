@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dodgem Arena — CM2030 Coursework 1</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #0e1116;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    canvas {
+      display: block;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Libraries (excluded from the bundled .pdf submission) -->
+  <script src="libraries/p5.min.js"></script>
+  <script src="libraries/matter.min.js"></script>
+
+  <!-- Application code -->
+  <script src="Arena.js"></script>
+  <script src="Car.js"></script>
+  <script src="Animations.js"></script>
+  <script src="SteeringAI.js"></script>
+  <script src="GameManager.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
